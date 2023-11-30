@@ -1,10 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
 
-    </head>
-    <body>
-        
-    </body>
+<head>
+
+    <meta charset="UFT-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+
+    <title>CodingQuiz</title>
+</head>
+
+<body>
+    <!--outer div-->
+    <div class="outside-container">
+
+        <!--top bar-->
+        <div class="top-bar">
+            <button>View Highscores</button>
+            <p>Timer: 00:00</p>
+        </div>
+
+        <!--inner div-->
+        <div class="inner container">
+
+            <!--main page a-->
+            <header id="start-quiz-header">
+                <h1>Hello! Try your luck at this coding speed quiz!</h1>
+                <p>Be careful to take your time! When ready, start the quiz.</p>
+                <button id="start-btn">Start Quiz</button>
+            </header>
+            <!--page b-->
+            <div id="question-display">
+                <h2 id="question-title"></h2>
+                <div id="question-box">
+                   
+                </div>
+            </div>
+            <!--page c to display results-->
+            <div id="time-up">
+                <h2>Game Over!</h2>
+                <h3>Final score: <span id="final-score">50%</span></h3>
+                <p>Enter name and save <input type="text"/></p>
+                <button id="submit">Submit</button>
+            </div>
+
+            <!--quiz content-->
+            <main>
+
+            </main>
+        </div>
+    </div>
+</body>
 
 </html>
